@@ -1,0 +1,5 @@
+N = int(input())
+a = str(N)
+b = set()
+b.update(a)
+print(b)
