@@ -1,5 +1,4 @@
-N = int(input())
-a = str(N)
-b = set()
-b.update(a)
-print(b)
+import sys
+
+sys.stdin = open('input.txt', 'r')
+
