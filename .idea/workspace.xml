@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/5356. 의석이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/6485. 삼성시의 버스노선.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1221.GNS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/6190. 정곤이의 단조증가.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/8702. 당근 수확.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/1018. 체스판.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/10709. 기상캐스터.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/2799. 블라인드.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/2799. 블라인드.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,8 @@
   <component name="ProjectId" id="1RVuP6X9B8OiYpJeoa3WfdzVzqZ" />
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,29 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14500. 테트로미노">
-    <configuration name="연습장" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190825" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190825/연습장.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14500. 테트로미노" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1018. 체스판">
+    <configuration name="1018. 체스판" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/1018. 체스판.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,49 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14500. 테트로미노" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2799. 블라인드" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2799. 블라인드.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5356. 의석이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1221.GNS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/5356. 의석이.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1221.GNS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6485. 삼성시의 버스노선" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4751. 다솔이의 다이아몬드" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/6485. 삼성시의 버스노선.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/4751. 다솔이의 다이아몬드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="그래프경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Python Console (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +124,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190825" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190825/그래프경로.py" />
+      <option name="SCRIPT_NAME" value="/Python Console" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python Console (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Python Console" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,10 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14500. 테트로미노" />
-        <item itemvalue="Python.2799. 블라인드" />
-        <item itemvalue="Python.6485. 삼성시의 버스노선" />
-        <item itemvalue="Python.5356. 의석이" />
+        <item itemvalue="Python.1018. 체스판" />
+        <item itemvalue="Python.4751. 다솔이의 다이아몬드" />
+        <item itemvalue="Python.1221.GNS" />
+        <item itemvalue="Python.Python Console (2)" />
+        <item itemvalue="Python.Python Console (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,16 +314,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/190821/파리채x.py</url>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/14500. 테트로미노.py</url>
-          <line>181</line>
-          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

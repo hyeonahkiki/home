@@ -7,8 +7,8 @@ N, M = map(int, input().split())
 board = [list(map(int, input().split())) for x in range(N)]
 maxV = -1
 # 정사각형
-for i in range(M-2):
-    for j in range(N-1):
+for i in range(N-2):
+    for j in range(M-1):
         s1 = 0
         for k in range(2):
             for s in range(2):
@@ -34,9 +34,9 @@ for i in range(N - 4 + 1):
         if s3 > maxV:
             maxV = s3
 #
-# # ㄱ자 모양
-for i in range(M - 3 + 1):
-    for j in range(N - 2):
+# ㄱ자 모양
+for i in range(N - 2 + 1):
+    for j in range(M - 2):
         s4 = 0
         for k in range(3):
             s4 += board[i][j + k]
@@ -46,8 +46,8 @@ for i in range(M - 3 + 1):
             maxV = s4
 
 # # ㄱ자 뒤집어진거
-for i in range(M - 3 + 1):
-    for j in range(N - 2):
+for i in range(N - 2 + 1):
+    for j in range(M - 2):
         s5 = 0
         for k in range(3):
             s5 += board[i][j + k]
@@ -57,8 +57,8 @@ for i in range(M - 3 + 1):
             maxV = s5
 
 # # ㄴ자
-for i in range(1, M - 3 + 1):
-    for j in range(N - 2):
+for i in range(1, N - 2 + 1):
+    for j in range(M - 2):
         s6 = 0
         for k in range(3):
             s6 += board[i][j + k]
@@ -68,8 +68,8 @@ for i in range(1, M - 3 + 1):
             maxV = s6
 
 #  ㄴ자 뒤집어진거
-for i in range(1, M - 3 + 1):
-    for j in range(N - 2):
+for i in range(1, N - 2 + 1):
+    for j in range(M - 2):
         s7 = 0
         for k in range(3):
             s7 += board[i][j + k]
@@ -79,8 +79,8 @@ for i in range(1, M - 3 + 1):
             maxV = s7
 
 # 5이거 비슷한모양
-for i in range(M - 3):
-    for j in range(N-1):
+for i in range(N - 2):
+    for j in range(M-1):
         s8 = 0
         for k in range(2):
             s8 += board[i + k][j]
@@ -91,8 +91,8 @@ for i in range(M - 3):
             maxV = s8
 #
 # 5이거 뒤집은거
-for i in range(M - 3):
-    for j in range(1, N - 2):
+for i in range(N - 2):
+    for j in range(1, M - 2):
         s9 = 0
         for k in range(2):
             s9 += board[i + k][j]
@@ -103,8 +103,8 @@ for i in range(M - 3):
             maxV = s9
 
 # ㄹ자 모양
-for i in range(M - 2):
-    for j in range(N-2):
+for i in range(N - 1):
+    for j in range(M-2):
         s10 = 0
         for k in range(2):
             s10 += board[i][j + k]
@@ -115,8 +115,8 @@ for i in range(M - 2):
             maxV = s10
 
 # ㄹ자 뒤집어진 모양
-for i in range(1, M - 1):
-    for j in range(N - 2):
+for i in range(1, N - 1):
+    for j in range(M - 2):
         s11 = 0
         for k in range(2):
             s11 += board[i][j + k]
@@ -127,8 +127,8 @@ for i in range(1, M - 1):
             maxV = s11
 
 # ㅜ 모양
-for i in range(M - 2):
-    for j in range(N - 2):
+for i in range(N- 1):
+    for j in range(M - 2):
         s12 = 0
         for k in range(3):
             s12 += board[i][j + k]
@@ -138,8 +138,8 @@ for i in range(M - 2):
             maxV = s12
 
 # ㅗ모양
-for i in range(1, M - 2):
-    for j in range(N - 2):
+for i in range(1, N-1):
+    for j in range(M - 2):
         s13 = 0
         for k in range(3):
             s13 += board[i][j + k]
@@ -149,8 +149,8 @@ for i in range(1, M - 2):
             maxV = s13
 
 # ㅏ모양
-for i in range(M - 3):
-    for j in range(N-1):
+for i in range(N - 2):
+    for j in range(M-1):
         s14 = 0
         for k in range(3):
             s14 += board[i + k][j]
@@ -160,8 +160,8 @@ for i in range(M - 3):
             maxV = s14
 
 # ㅓ모양
-for i in range(M - 3):
-    for j in range(1, N):
+for i in range(N - 2):
+    for j in range(1, M):
         s15 = 0
         for k in range(3):
             s15 += board[i + k][j]
@@ -171,8 +171,8 @@ for i in range(M - 3):
             maxV = s15
 
 # 긴 ㄱ모양뒤집은거
-for i in range(M - 3):
-    for j in range(N-1):
+for i in range(N - 2):
+    for j in range(M-1):
         s16 = 0
         for k in range(3):
             s16 += board[i + k][j]
@@ -182,8 +182,8 @@ for i in range(M - 3):
             maxV = s16
 
 # 긴 ㄱ모양
-for i in range(M - 3):
-    for j in range(1, N):
+for i in range(N - 2):
+    for j in range(1, M):
         s17 = 0
         for k in range(3):
             s17 += board[i + k][j]
@@ -193,8 +193,8 @@ for i in range(M - 3):
             maxV = s17
 
 # 긴 ㄴ자모양
-for i in range(M - 3):
-    for j in range(N-1):
+for i in range(N - 2):
+    for j in range(M-1):
         s18 = 0
         for k in range(3):
             s18 += board[i + k][j]
@@ -204,8 +204,8 @@ for i in range(M - 3):
             maxV = s18
 
 # 긴 ㄴ자 모양 뒤집은거
-for i in range(M - 3):
-    for j in range(1, N):
+for i in range(N - 3):
+    for j in range(1, M):
         s19 = 0
         for k in range(3):
             s19 += board[i + k][j]
