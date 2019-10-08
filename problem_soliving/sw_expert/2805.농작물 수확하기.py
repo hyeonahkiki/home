@@ -1,18 +1,14 @@
-T = int(input())
-for tc in range(1, T+1):
-    N = int(input())
-    square = [list(map(int, input())) for x in range(N)]
+import sys
+sys.stdin = open('input.txt', 'r')
 
-    for i in range(N):
-        s = 0
-        s += square[0][N//2]
-        s += square[N-1][N//2]
-        for j in range(N):
-            if j == N //2:
-                s += square[i][j]
-        # for a in range(i+1, N-1):
-        #     if 0 < j < N //2:
-        #         s += square[a][j]
-    print('#{} {}'.format(tc, s))
+T= int(input())
+N = int(input())
+farm = [list(map(int, input())) for x in range(N)]
+profit = 0
 
-
+for x in range(N):
+    for y in range(N):
+        if N//2<= x+y <= 2*(N-1) - N//2:
+            if abs(x-y) <=N//2:
+                profit += farm[x][y]
+print(profit)
