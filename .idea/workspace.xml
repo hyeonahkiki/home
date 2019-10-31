@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1206. view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1216. 회문2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1225. 암호생성기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1228. 암호문1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1229. 암호문2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1230. 암호문3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1860. 진기의 최고급붕어빵.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/3131. 100만 이하의 모든소수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/3233.정삼각형분할py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/3499. 퍼펙트셔플.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/3809. 화섭이의 정수나열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/4371. 항구에 들어오는 배.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/4751. 다이아몬드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/4789. 성공적인 공연 기획.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/5215. 햄버거 다이어트.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/5603. 건초더미.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/5789. 현주의 상자바꾸기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/6692. 다솔이의 월급상자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/minmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/구간합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/글자수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/당근수확3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/당근수확4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1226. 미로1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/당근밭 옆 고구마밭.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/두 개의 숫자열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/문자열비교.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/색칠하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/숫자카드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/지그재그숫자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/특별한정렬.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/파리퇴치.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2823. 유턴싫어.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/2805.농작물 수확하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/2805.농작물 수확하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/연습장.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.두 개의 숫자열">
+  <component name="RunManager" selected="Python.1949. 등산로조성">
     <configuration name="두 개의 숫자열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +67,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/두 개의 숫자열.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="당근밭 옆 고구마밭" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/당근밭 옆 고구마밭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1226. 미로1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1226. 미로1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1949. 등산로조성" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,19 +223,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.문자열비교" />
+      <item itemvalue="Python.당근밭 옆 고구마밭" />
       <item itemvalue="Python.글자수" />
-      <item itemvalue="Python.파리퇴치" />
-      <item itemvalue="Python.지그재그숫자" />
-      <item itemvalue="Python.두 개의 숫자열" />
+      <item itemvalue="Python.1226. 미로1" />
+      <item itemvalue="Python.1949. 등산로조성" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.두 개의 숫자열" />
-        <item itemvalue="Python.지그재그숫자" />
-        <item itemvalue="Python.파리퇴치" />
+        <item itemvalue="Python.1949. 등산로조성" />
+        <item itemvalue="Python.1226. 미로1" />
         <item itemvalue="Python.글자수" />
-        <item itemvalue="Python.문자열비교" />
       </list>
     </recent_temporary>
   </component>
@@ -328,14 +359,14 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/sw_expert/두 개의 숫자열.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="99" />
+          <url>file://$PROJECT_DIR$/problem_soliving/sw_expert/당근밭 옆 고구마밭.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/sw_expert/두 개의 숫자열.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="100" />
+          <url>file://$PROJECT_DIR$/problem_soliving/sw_expert/당근밭 옆 고구마밭.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
