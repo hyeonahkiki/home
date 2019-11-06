@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/부분수열의 합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/연습장.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/1012. 유기농 배추.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/16509. 장군.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2178. 미로탐색.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/부분 수열의 합.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습장.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,28 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.연습장">
-    <configuration name="두 개의 숫자열" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/두 개의 숫자열.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1012. 유기농 배추">
     <configuration name="부분수열의 합" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +66,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/부분수열의 합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1012. 유기농 배추" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/백준" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/1012. 유기농 배추.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1949. 등산로조성" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1226. 미로1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2178. 미로탐색" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,32 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/백준" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1226. 미로1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1949. 등산로조성" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_soliving/sw_expert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2178. 미로탐색.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,19 +243,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.글자수" />
-      <item itemvalue="Python.1226. 미로1" />
       <item itemvalue="Python.1949. 등산로조성" />
       <item itemvalue="Python.부분수열의 합" />
       <item itemvalue="Python.연습장" />
+      <item itemvalue="Python.2178. 미로탐색" />
+      <item itemvalue="Python.1012. 유기농 배추" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1012. 유기농 배추" />
+        <item itemvalue="Python.2178. 미로탐색" />
         <item itemvalue="Python.연습장" />
         <item itemvalue="Python.부분수열의 합" />
         <item itemvalue="Python.1949. 등산로조성" />
-        <item itemvalue="Python.1226. 미로1" />
-        <item itemvalue="Python.글자수" />
       </list>
     </recent_temporary>
   </component>
@@ -393,9 +392,9 @@
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/연습장.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="111" />
+          <url>file://$PROJECT_DIR$/problem_soliving/백준/2178. 미로탐색.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -406,11 +405,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="visited" language="Python" />
-        <watch expression="cnt" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
