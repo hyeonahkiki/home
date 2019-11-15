@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1952. 수영장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/5643. 키 순서.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/월말평가_미네랄.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/11559. puyopuyo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/4013. 특이한 자석.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/1949. 등산로조성.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/연습장.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/14502. 연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/14502. 연구소.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.연습">
+  <component name="RunManager" selected="Python.4013. 특이한 자석">
     <configuration name="연습장 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5643. 키 순서" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4013. 특이한 자석" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/5643. 키 순서.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/sw_expert/4013. 특이한 자석.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +198,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5643. 키 순서" />
       <item itemvalue="Python.월말평가_미네랄" />
       <item itemvalue="Python.연습장 (1)" />
       <item itemvalue="Python.11559. puyopuyo" />
       <item itemvalue="Python.연습" />
+      <item itemvalue="Python.4013. 특이한 자석" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4013. 특이한 자석" />
         <item itemvalue="Python.연습" />
         <item itemvalue="Python.11559. puyopuyo" />
         <item itemvalue="Python.월말평가_미네랄" />
         <item itemvalue="Python.연습장 (1)" />
-        <item itemvalue="Python.5643. 키 순서" />
       </list>
     </recent_temporary>
   </component>
@@ -354,11 +346,6 @@
           <url>file://$PROJECT_DIR$/problem_soliving/백준/11559. puyopuyo.py</url>
           <line>98</line>
           <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/연습.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
