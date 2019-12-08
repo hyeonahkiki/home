@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/8일차. 이진힙.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/15649. N과 M(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/15650. N과 M(2).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/sw_expert/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/14503. 로봇 청소기.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/14503. 로봇 청소기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/15650. N과 M(2).py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/15650. N과 M(2).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -360,16 +353,6 @@
           <url>file://$PROJECT_DIR$/problem_soliving/sw_expert/8일차. 이진힙.py</url>
           <line>17</line>
           <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/15650. N과 M(2).py</url>
-          <line>20</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/15650. N과 M(2).py</url>
-          <line>13</line>
-          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

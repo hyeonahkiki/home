@@ -11,7 +11,7 @@ def check(n, k, s, t):
             if used[i] != 1:
                 res[n] = i
                 used[i] = 1
-                check(n+1, k, s, t+1)
+                check(n+1, k, s, i+1)
                 used[i] = 0
 
 
