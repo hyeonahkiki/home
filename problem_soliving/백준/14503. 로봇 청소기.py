@@ -21,10 +21,16 @@ def check(x, y, d):
             ni = x + dx
             nj = y + dy
             # 왼쪽에 청소할 곳이 있다면
-            if 0<=ni<M and 0<= nj <N and space[ni][nj] ==0:
-                #바라보는 곳에서 한칸 전진이면
-                stepx, stepy = order[d][2:]
-                space[ni+stepx][nj+stepy]
+            if 0<=ni<M and 0<= nj <N:
+                if space[ni][nj] ==0:
+                    clean += 1
+                # 청소할 곳이 없다면 이동
+                # 바라보는 곳에서 한칸 전진이면
+                else:
+                    stepx, stepy = order[d][2:]
+                    ni += stepx
+                    nj += stepy
+
 
 
 # 세로, 가로
