@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/15686. 치킨배달(비트).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2667. bfs로 풀기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2428. 원판돌리기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2667. bfs로 풀기.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hyeon\python\home\problem_soliving\백준\2428. 안전구역.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2667. 단지번호붙이기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2428. 안전구역" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2667. 단지번호붙이기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,19 +204,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2667. 단지번호붙이기" />
-      <item itemvalue="Python.2667. bfs로 풀기" />
       <item itemvalue="Python.15686. 치킨배달" />
       <item itemvalue="Python.연습" />
       <item itemvalue="Python.17822. 원판돌리기" />
+      <item itemvalue="Python.2428. 안전구역" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.17822. 원판돌리기" />
+        <item itemvalue="Python.2428. 안전구역" />
         <item itemvalue="Python.연습" />
         <item itemvalue="Python.15686. 치킨배달" />
-        <item itemvalue="Python.2667. bfs로 풀기" />
-        <item itemvalue="Python.2667. 단지번호붙이기" />
       </list>
     </recent_temporary>
   </component>
@@ -368,9 +367,14 @@
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py</url>
+          <url>file://$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py</url>
           <line>59</line>
-          <option name="timeStamp" value="150" />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -383,8 +387,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="zero" language="Python" />
-        <watch expression="circle" language="Python" />
+        <watch expression="infos" />
       </configuration>
     </watches-manager>
   </component>
