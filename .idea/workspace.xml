@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b085233-91bd-44f1-b706-38834d71eee2" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_soliving/백준/연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/연습.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/15686. 치킨배달(비트).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/1697. 숨바꼭질.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2048. 안전영역.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_soliving/백준/2573. 빙산.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/15686. 치킨배달(비트).py" beforeDir="false" />
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
+      <change beforePath="$PROJECT_DIR$/problem_soliving/백준/input" beforeDir="false" afterPath="$PROJECT_DIR$/problem_soliving/백준/input" afterDir="false" />
+>>>>>>> cc867eba3c01ef692d056aa8cc2d10d3b9a47535
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +225,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="2428. 원판돌리기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="2048. 안전영역" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,7 +241,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="C:\Users\hyeon\python\home\problem_soliving\백준\2428. 안전구역.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2048. 안전영역.py" />
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +254,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="2428. 안전구역" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="2573. 빙산" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
       <module name="test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +270,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_soliving/백준/2573. 빙산.py" />
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +326,18 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
+      <item itemvalue="Python.15686. 치킨배달" />
+      <item itemvalue="Python.연습" />
+      <item itemvalue="Python.17822. 원판돌리기" />
+      <item itemvalue="Python.2428. 안전구역" />
+=======
       <item itemvalue="Python.연습" />
       <item itemvalue="Python.17822. 원판돌리기" />
       <item itemvalue="Python.2048. 안전영역" />
       <item itemvalue="Python.1697. 숨바꼭질" />
       <item itemvalue="Python.2573. 빙산" />
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
     </list>
     <recent_temporary>
       <list>
@@ -305,6 +346,15 @@
         <item itemvalue="Python.1697. 숨바꼭질" />
         <item itemvalue="Python.2048. 안전영역" />
         <item itemvalue="Python.17822. 원판돌리기" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Python.2428. 안전구역" />
+        <item itemvalue="Python.연습" />
+<<<<<<< HEAD
+        <item itemvalue="Python.15686. 치킨배달" />
+=======
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
+>>>>>>> cc867eba3c01ef692d056aa8cc2d10d3b9a47535
       </list>
     </recent_temporary>
   </component>
@@ -488,9 +538,14 @@
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py</url>
+          <url>file://$PROJECT_DIR$/problem_soliving/백준/2428. 안전구역.py</url>
           <line>59</line>
-          <option name="timeStamp" value="150" />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_soliving/백준/17822. 원판돌리기.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problem_soliving/백준/1697. 숨바꼭질.py</url>
@@ -513,7 +568,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
+<<<<<<< HEAD
+        <watch expression="infos" />
+=======
         <watch expression="iceberg" language="Python" />
+>>>>>>> 9b3e65183b7525dccd75e0e961c44bc2d5a6fe08
       </configuration>
     </watches-manager>
   </component>
