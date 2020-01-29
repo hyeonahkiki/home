@@ -6,10 +6,7 @@ sys.stdin = open('input', 'r')
 def check(n, lists, k):
     global maxV, minV, i
     if k ==0:
-        if n> maxV:
-            maxV = int(n)
-        if n < minV:
-            minV = int(n)
+        result.append(n)
     else:
         if i < N:
             if info[0] != 0:
@@ -33,7 +30,7 @@ def check(n, lists, k):
             if info[3] !=0:
                 info[3] -= 1
                 i += 1
-                check(n / nums[i], lists, k-1)
+                check(int(n / nums[i]), lists, k-1)
                 info[3] += 1
                 i -= 1
 
@@ -47,10 +44,12 @@ maxV = -1
 minV = 100000
 # 연산자의 수 세기
 total = 0
+# 출력값을 모아놓을 곳
+result = []
 i = 0
 for j in info:
     if j !=0:
         total +=j
 check(nums[0], info, total)
-print(maxV)
-print(minV)
+print(max(result))
+print(min(result))
