@@ -33,7 +33,7 @@ def check(n, lists, k):
             if info[3] !=0:
                 info[3] -= 1
                 i += 1
-                check(n / nums[i], lists, k-1)
+                check(int(n / nums[i]), lists, k-1)
                 info[3] += 1
                 i -= 1
 
