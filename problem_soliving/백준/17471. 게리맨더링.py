@@ -1,69 +1,75 @@
 import sys
-<<<<<<< HEAD
 
 sys.stdin = open('input', 'r')
 
 
-def division(n, k):
-    global total
+# def division(n, k):
+#     global total
+#     if n == k:
+#         return
+#     else:
+#         groupA = []
+#         groupB = []
+#         for i in range(1, k + 1):
+#             if used[i] != 1:
+#                 groupA.append(i)
+#                 used[i] = 1
+#                 division(n + 1, k)
+#                 if len(groupA) + len(groupB) == k and len(groupA) * len(groupB) != 0:
+#                     total.append((groupA, groupB))
+#                 used[i] = 0
+#             else:
+#                 groupB.append(i)
+#     return
+
+# n: 시작점 k: groupA의 길이 s: groupA의 리스트, z는 시작점(중복없이 뽑기 위함)
+def division(n, k, s, z):
+    global total, N
     if n == k:
-=======
-sys.stdin = open('input', 'r')
-
-def division(n, k):
-    global total
-    if n==k:
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
+        b = []
+        # 전체리스트 중에 v
+        for v in list(range(1, N+1)):
+            # v가 나눠진 그룹안에 없다면
+            if v not in s:
+                b.append(v)
+        total.append([s, b])
         return
     else:
-        groupA = []
-        groupB = []
-<<<<<<< HEAD
-        for i in range(1, k + 1):
+        for i in range(z, N+1):
             if used[i] != 1:
-                groupA.append(i)
                 used[i] = 1
-                division(n + 1, k)
-                if len(groupA) + len(groupB) == k and len(groupA) * len(groupB) != 0:
-=======
-        for i in range(1, k+1):
-            if used[i] != 1:
-                groupA.append(i)
-                used[i] = 1
-                division(n+1, k)
-                if len(groupA) + len(groupB) == k:
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
-                    total.append((groupA, groupB))
+                division(n + 1, k, s +[i], i)
                 used[i] = 0
-            else:
-                groupB.append(i)
     return
 
-<<<<<<< HEAD
+
+
+
 # 연결된 지역인지 확인하기
 def bfs(lists):
-    q= [lists[0]]
-    visited = [0] * (N+1)
+    if len(lists)==1:
+        return True
+    q = [lists[0]]
+    history =[]
     while q:
         spot = q.pop(0)
-
-
-=======
-di = [-1, 0, 1, 0]
-dj = [0, 1, 0, -1]
-def bfs(arr):
-    if len(arr):
+        visited[spot] = 1
+        history.append(spot)
+        for i in range(1, N+1):
+            if check[spot][i] ==1 and visited[i] ==0 and i in lists:
+                q.append(i)
+                visited[i] = 1
+    # print(history, lists)
+    if set(history) == set(lists):
         return True
-    else:
-        pass
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
+    return False
+
 
 N = int(input())
 info = list(map(int, input().split()))
 regions = [list(map(int, input().split())) for x in range(N)]
 
 # 인접한 지역을 표시
-<<<<<<< HEAD
 check = [[0] * (N + 1) for x in range(N + 1)]
 for i in range(N):
     spot = regions[i]
@@ -71,46 +77,33 @@ for i in range(N):
         check[i + 1][spot[j]] = 1
 
 # 구역을 나누기
-used = [0] * (N + 1)
-=======
-check = [[0] * (N+1) for x in range(N+1)]
-for i in range(N):
-    spot = regions[i]
-    for j in range(1, spot[0]+1):
-        check[i+1][spot[j]] = 1
-
-# 구역을 나누기
-used = [0] * (N+1)
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
 total = []
-division(0, N)
-res = []
-for i in total:
-    if i not in res:
-        res.append(i)
-<<<<<<< HEAD
-# 최소값
-minV = 10000
-=======
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
+# groupA를 3개뽑면 나머지는 groupB가 나눠진다.
+for i in range(1, N//2):
+    groupB = []
+    used = [0] * (N + 1)
+    division(0, i, [], 1)
+
+# 최솟값
+minV = 1000000
 
 # 나뉜 구역이 연결된 구역인지 확인하기
-for part in res:
+for part in total:
     groupA, groupB = part
-    print(groupA, groupB)
-<<<<<<< HEAD
+    visited = [0] * (N + 1)
     ansA = bfs(groupA)
     ansB = bfs(groupB)
-    # 각 구역별 인구합
-    preA = 0
-    preB = 0
-    if ansA == True and ansB == True:
-        for i in range(len(groupA)):
-            preA += info[i]
-        for j in range(len(groupB)):
-            preB += info[j]
-    if minV > abs(preA - preB):
-        minV = abs(preA - preB)
-# print(minV)
-=======
->>>>>>> 8af68708446ba6bfb58ac8f5e0d3dd93e4c2ce72
+    if ansA ==True and ansB ==True:
+        cntA = 0
+        cntB = 0
+        for i in groupA:
+            cntA += info[i-1]
+        for j in groupB:
+            cntB += info[j-1]
+        if minV > abs(cntA-cntB):
+            minV = abs(cntA-cntB)
+if minV == 1000000:
+    minV = -1
+print(minV)
+
+
