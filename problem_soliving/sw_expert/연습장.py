@@ -1,45 +1,40 @@
-import sys
-sys.stdin = open('input.txt', 'r')
+# n: 현재호출에서 접근할 원소의 인덱스, k: 배열의 크기
+# def f(n, k):
+#     if n==k:
+#         print(a[n])
+#     else:
+#         f(n+1, k)
+#
+a= [1, 2, 3]
+b = [0, 0, 0]
+# f(0, 2)
 
-# 미네랄 인덱스, 미네랄개수, 누적미네랄양, 에너지
-def check(n, k, s, e):
-    global maxV, mineral, dis, robot, N, M
-    if maxV < s:
-        maxV = s
+# 재귀로 집합 a의 부분집합 만들기
+def f2(n, k):
+    # b배열을 벗어나면
     if n==k:
+        for n in range(k):
+            if b[n] ==1:
+                print(b[n], end="")
+        print()
+    else:
+        # 남은 원소가 있으면
+        b[n] = 0
+        f2(n+1, k)
+        b[n] = 1
+        f2(n+1, k)
+
+# 서로 다른 k개의 자연수의 지합에서 부분집합 원소의 합이 M인 경우의 수
+cnt = 0
+def f3(n, k, s, m):
+    global cnt
+    if s==m:
+        cnt += 1
+        return
+    elif n==k:
         return
     else:
-        # 그거를 가지고 돌아올때는 에너지가 0이어도 상관이 없으니까
-        if e >= 2*dis[n]:
-            # 미네랄을 가져올때
-            # 왕복 거리를 뺴야하니까
-            check(n+1, k, s+mineral[n][2], e-2*dis[n])
-        # 미네랄을 가져오지 않을때
-        # 에너지가 얼마가 있던지 상관이 없음
-        check(n+1, k, s, e)
-
-T = int(input())
-for tc in range(1, T+1):
-    #가로, 세로, 에너지
-    N, M, C = map(int, input().split())
-    field = [list(map(int, input().split())) for x in range(N)]
-    # 최대 미네랄 양
-    maxV = 0
-    # 로봇의 위치를 찾기
-    robot = []
-    # 미네랄의 양
-    mineral = []
-    # 미네랄별 거리정보
-    dis = []
-    for i in range(N):
-        for j in range(M):
-            if field[i][j] == 1:
-                robot.append([i, j])
-            elif field[i][j] > 1:
-                mineral.append([i, j, field[i][j]])
-    for m in mineral:
-        x, y, z = m
-        temp = abs(robot[0][0] - x) + abs(robot[0][1] - y)
-        dis.append(temp)
-    check(0, len(mineral), 0, C)
-    print(dis)
+        # 부분집합에 a[n] 포함
+        f3(n + 1, k, s + a[n], m)
+        # 부분집합에 a[n] 미포함
+        f3(n+1, k, s, m)
